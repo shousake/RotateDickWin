@@ -19,4 +19,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="startmenu.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reset.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

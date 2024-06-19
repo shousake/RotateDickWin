@@ -196,6 +196,19 @@
   <ItemGroup>
     <ClCompile Include="RotateDick.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="reset.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stage1.h" />
+    <ClInclude Include="startmenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RotateDick.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="dickhead.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
