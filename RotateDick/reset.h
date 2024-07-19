@@ -1,3 +1,4 @@
+
 #ifndef ROTATEDICK_RESET_H
 #define ROTATEDICK_RESET_H
 #include "functions.h"
@@ -16,11 +17,3 @@ void reset()
 }
 #endif //ROTATEDICK_RESET_H
 
-
-/*
-    d[0].orDick = SDL_LoadBMP("dicks/dickhead.bmp");
-    d[1].orDick = SDL_LoadBMP("dicks/dickhead1.bmp");
-    d[2].orDick = SDL_LoadBMP("dicks/dickhead2.bmp");
-    d[3].orDick = SDL_LoadBMP("dicks/dickhead3.bmp");
-    SDL_Surface* bk = SDL_LoadBMP("dicks/bk.bmp");
-   */
