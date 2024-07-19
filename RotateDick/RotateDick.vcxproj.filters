@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RotateDick.cpp">
+    <ClCompile Include="RotateDick.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,5 +32,24 @@
     <ClInclude Include="reset.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="blocks.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RotateDick.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="dickhead.ico">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

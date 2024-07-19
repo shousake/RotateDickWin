@@ -125,6 +125,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -155,6 +158,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -194,13 +198,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="RotateDick.cpp" />
+    <ClCompile Include="RotateDick.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="blocks.h" />
     <ClInclude Include="functions.h" />
     <ClInclude Include="reset.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stage1.h" />
+    <ClInclude Include="stage2.h" />
     <ClInclude Include="startmenu.h" />
   </ItemGroup>
   <ItemGroup>
